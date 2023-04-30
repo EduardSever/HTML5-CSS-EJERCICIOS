@@ -1,0 +1,15 @@
+.nav-enlace{
+    background: salmon;
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: green;
+    
+}
+nav{
+    background: rgb(111, 0, 255);
+    padding: 20px;;
+}   
