@@ -1,5 +1,6 @@
 .nav-enlace{
-    background: salmon;
+    display: inline-block;
+    background: black;
     color: #fff;
     padding: 10px 15px;
     display: inline-block;
@@ -7,9 +8,33 @@
 }
 .nav-enlace:hover{
     background: green;
-    
 }
 nav{
     background: rgb(111, 0, 255);
-    padding: 20px;;
-}   
+    padding: 20px;
+    display: flex block;
+    justify-content: space-around;
+
+}
+.nav-button{
+    background: #fff;
+    padding: 10px;
+    display: none;
+
+}
+@media(max-width:500px){
+    nav{
+        background: fuchsia;
+        flex-direction: column;
+
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-button{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+}
