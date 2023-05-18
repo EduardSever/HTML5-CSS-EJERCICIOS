@@ -1,0 +1,11 @@
+button{
+    background:rgb(19, 231, 55);
+    color: black;
+}
+button:hover{
+    background: yellow;
+}
+
+button:active{
+    background: magenta;
+}
