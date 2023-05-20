@@ -1,7 +1,14 @@
 * {
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Montagu Slab', serif;
+}
+
+a{
+    text-decoration: none;
 }
 
 .padre {
@@ -10,36 +17,59 @@
 }
 
 .header {
-    background: #000;
+    background: url(../imagenes/imgfondo.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
     display: flex;
     flex-flow: column nowrap;
 }
-
 .menu {
-    background: #B6EAFA;
+    background: rgb(0,0,0,.1);
     display: flex;
     flex-flow: row nowrap;
-    height: 100px;
+    height: 60px;
     align-items: center;
+    border-bottom: 1px solid rgb(255, 255, 255,.5);
 }
 
 .logo {
-    background: #45c92a;
     flex: 1 1 auto;
-    height: 30px;
 }
-
+.logo a{
+    color: #FEFF;
+    font-size: 30px;
+   
+}
+.logo a:hover{
+    color: #02000034;
+   
+}
 .nav {
-    background: #45c92a;
     flex: 5 1 auto;
-    height: 30px;
+}
+.nav a{
+    color: #FEFF;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 2px;
+}
+.nav a:hover{
+    color: #343434;
 }
 
 .social {
-    background: #45c92a;
     flex: 1 1 auto;
-    height: 30px;
-
+    display: flex;
+}
+.social a{
+    font-size: 18px;
+    color: #fff;
+    padding: 0 5px;
+}
+.social a:hover{
+    color: #343434;
 }
 
 .texto-principal {
