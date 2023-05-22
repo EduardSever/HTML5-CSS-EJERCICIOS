@@ -1,0 +1,19 @@
+body{
+    background: pink;
+}
+div{
+    background: red;
+}
+
+@media all and(max-width: 800px){
+    div{
+        font-style: italic;
+    }
+
+}
+
+@media (max-width: 1250px) {
+    div{
+        font-style: italic;
+    }
+}
